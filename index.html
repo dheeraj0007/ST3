@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./index.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#ffe4c4]">
+  <header class="flex justify-center mt-[40px]">
+    <div id="title-input ">
+        <div id="title">
+        <h1 class="ml-12 text-3xl font-semibold text-blue-700">To Do List</h1>
+        
+
+        <div id="input-holder" class="mt-5">
+            <input class=" placeholder:font-semibold placeholder:outline-none py-2 px-2 w-72 mr-2 border-2 border-black rounded-md" type="text" name="" id="task-field" placeholder="Add new task">
+            <button id="submit" class="bg-green-400 p-3 rounded-lg font-semibold border border-black hover:bg-green-500">Add Task</button>
+        
+
+    </div>
+</header>
+
+<div id="main">
+    <ul id="task-list" class="list-none">
+    </ul>
+</div>
+<script src="./index.js"></script>
+</body>
+</html>
